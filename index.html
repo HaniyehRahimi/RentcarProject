@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <header>
+        <nav class="navbar navbar-expand-md shadow-sm p-3">
+            <div class="container-fluid">
+                <h2 class="navbar-brand">
+                    BrandCar
+                </h2>
+                    <button class="navbar-toggler" data-bs-target="#collapse" data-bs-toggle="collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="collapse">
+                        <ul class="navbar navbar-nav m-md-auto">
+                            <li class="nav-item m-2"><a href="#" class="nav-link">UsedCars</a></li>
+                            <li class="nav-item m-2"><a href="#" class="nav-link">NewCar</a></li>
+                            <li class="nav-item m-2"><a href="#" class="nav-link">Auctions</a></li>
+                            <li class="nav-item m-2"><a href="#" class="nav-link">Sell</a></li>
+                            <li class="nav-item m-2"><a href="#" class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas1">RentedCars</a></li>
+                        </ul>
+                        <button class="btn">SignUp</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="offcanvas offcanvas-start" id="offcanvas1">
+        <h2 class="offcanvas-header mx-auto">Rented Cars </h2>
+        <div class="offcanvas-body">
+            <div class="rented-list"></div>
+        </div>
+    </div>
+
+    <main>
+        <section class="text-center">
+           <div class="mt-5">
+            <p class="fs-5 texts">Meet Your New Car</p>
+            <h1 class="text-dark fw-bold">Honda Civic Type R</h1>
+            <button class=" btn-details mt-3">More Details</button>
+            <button class=" btn-drive mt-3">Test Drive</button>
+        </div>
+        <img src="./643833d4a87446f67ecf20cf_Toyota_63d0517997cbdf9598476dde_Toyota.webp" class="img-fluid" alt="">
+        </section>
+        <section>
+            <h2 class="text-center">Which vehicle your are looking for?</h2>
+            <div class="inputs d-flex justify-content-center">
+             <input type="text"placeholder="Type">
+            <input type="text" placeholder="Year">
+            <input type="text" placeholder="Model">
+            <input type="text" placeholder="Price">
+            <button class="search-btn btn">
+                <img src="./search-alt-1-svgrepo-com.svg" alt="">
+                Search
+            </button>
+            </div>
+        </section>
+        <section class="cars">
+            <h3 class="text-center my-5 fw-bold">Trending Near Your</h3>
+           <div class="row justify-content-center">
+               <div class="col-3">
+               <div class="card">
+                    <img src="./images (2).jpg" class="img-fluid card-img-top" alt="">
+                    <div class="card-body">
+                        <h3>Used 2019 Audi S4 Premium Plus</h3>
+                        <p class="miles">11457Miles</p>
+                        <p class="fw-bold">AWD -Cylinder Turbo</p>
+                        <button class=" btn-drive mt-3" data-id="1">$41,200</button>
+                        <button class=" btn-details mt-3">Best Seller</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                     <img src="./images (2).jpg" class="img-fluid card-img-top" alt="">
+                     <div class="card-body">
+                         <h3>Used 2019 Audi S4 Premium Plus</h3>
+                         <p class="miles">11457Miles</p>
+                         <p class="fw-bold">AWD -Cylinder Turbo</p>
+                         <button class=" btn-drive mt-3" data-id="2">$89,200</button>
+                         <button class=" btn-details mt-3">Best Seller</button>
+                     </div>
+                 </div>
+             </div>
+            <div class="col-3">
+                <div class="card">
+                     <img src="./images (4).jpg" class="img-fluid card-img-top" alt="">
+                     <div class="card-body">
+                         <h3>Used 2019 Audi S4 Premium Plus</h3>
+                         <p class="miles">11457Miles</p>
+                         <p class="fw-bold">AWD -Cylinder Turbo</p>
+                         <button class=" btn-drive mt-3" data-id="3">$41,200</button>
+                         <button class=" btn-details mt-3">Best Seller</button>
+                     </div>
+                 </div>
+             </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-3">
+                    <div class="card">
+                        <img src="./images (3).jpg" class="img-fluid card-img-top" alt="">
+                        <div class="card-body">
+                            <h3>Used 2019 Audi S4 Premium Plus</h3>
+                            <p class="miles">11457Miles</p>
+                            <p class="fw-bold">AWD -Cylinder Turbo</p>
+                            <button class=" btn-drive mt-3" data-id="4">$41,200</button>
+                            <button class=" btn-details mt-3">Best Seller</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="./images (4).jpg" class="img-fluid card-img-top" alt="">
+                        <div class="card-body">
+                            <h3>Used 2019 Audi S4 Premium Plus</h3>
+                            <p class="miles">11457Miles</p>
+                            <p class="fw-bold">AWD -Cylinder Turbo</p>
+                            <button class=" btn-drive mt-3" data-id="5">$41,200</button>
+                            <button class=" btn-details mt-3">Best Seller</button>
+                        </div>
+                    </div>
+                </div>
+             <div class="col-3">
+                 <div class="card">
+                     <img src="./images (3).jpg" class="img-fluid card-img-top" alt="">
+                     <div class="card-body">
+                         <h3>Used 2019 Audi S4 Premium Plus</h3>
+                         <p class="miles">11457Miles</p>
+                         <p class="fw-bold">AWD -Cylinder Turbo</p>
+                         <button class=" btn-drive mt-3" data-id="6">$41,200</button>
+                         <button class=" btn-details mt-3">Best Seller</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+        </section>
+        <section class="section">
+            <div class="Explore mt-5 p-5">
+                <h2 class="fw-bold">Explore top sellers in town</h2>
+                <p>Lorem ipsum dolati consectetuon? Laborum soluta delectus adipisci. Itaque, dolore error! Velit ab numquam sunt, nihil itaque minus nobis?</p>
+                <div class="brands">
+                    <div class="brand">
+                        <h4>Toyota</h4>
+                        <p class="texts">from$40k</p>
+                    </div>
+                    <div class="brand">
+                        <h4>Vollkswagen</h4>
+                        <p class="texts">from$32k</p>
+                    </div>
+                    <div class="brand">
+                        <h4>Mercedes Benz</h4>
+                        <p class="texts">from$57k</p>
+                    </div>
+                    <div class="brand">
+                        <h4>Hyundai</h4>
+                        <p class="texts">from$40k</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

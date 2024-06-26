@@ -1,0 +1,85 @@
+::selection{
+    background-color: rgb(144, 6, 224);
+    color: white;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* width: 100vw;
+    height: 100vh; */
+}
+.nav-item :hover{
+    background-color: rgb(144, 6, 224);
+    color: white;
+    padding: 8px;
+    border-radius: 2px;
+}
+.btn{
+    background-color: rgb(144, 6, 224);
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(223, 194, 243);
+    color: white;
+}
+.btn-details{
+    background-color: rgb(247, 246, 246);
+    color: rgb(141, 141, 141);
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    font-weight: 400;
+}
+.btn-drive{
+    background-color: rgb(144, 6, 224);
+    color: white;
+    padding: 10px;
+    border: none;
+}
+.btn-drive:hover{
+  background-color: rgb(223, 194, 243);
+
+}
+.img-fluid{
+    height: 200px;
+}
+
+  .inputs input{
+    width: 120px;
+    border: 1px solid rgb(199, 198, 198);
+    padding: 5px;
+    border-radius: 3px;
+    outline: none;
+    margin: 5px;
+    
+  }
+  .search-btn{
+    width: 120px;
+  }
+  .search-btn img{
+    width: 20px;
+    height: 20px;
+    color: rgb(241, 241, 239);
+  }
+  .miles{
+    color: rgb(92, 90, 90);
+
+  }
+  .section{
+    background: #dad7d7;
+
+  }
+  .brands{
+    display: grid;
+    grid-template-columns: repeat(2,400px);
+  }
+  .texts{
+    color: #555
+  }
+
+  .remove{
+    text-decoration: none;
+    color: red;
+    font-size: 25px;
+    padding: 15px;
+    cursor: pointer;
+  }
