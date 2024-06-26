@@ -12,3 +12,20 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil id earum, facilis
 
 
 click [here](https://haniyehrahimi.github.io/RentcarProject/) to see demo repository
+
+Markdown	HTML	Rendered Output
+At the command prompt, type `nano`.
+*** 
+---
+
+
+```javascript
+function hello(){
+    console.log('hello')
+}
+```
+---
+| first name | last name   |
+| -----------| ----------- |
+| milad      | bahrami     |
+| ali        | Text        |
